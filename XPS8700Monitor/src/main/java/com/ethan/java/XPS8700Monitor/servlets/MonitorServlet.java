@@ -46,6 +46,7 @@ public class MonitorServlet extends HttpServlet {
 		this.retriever = new PageEntityRetrUtil(userAgent);
 		
 		datastore.addUser("waldenlaker@hotmail.com");
+		datastore.addUser("r3000.mitbbs@gmail.com");
 		try{
 			Thread.sleep(1000);
 		} catch(InterruptedException ex){
@@ -60,6 +61,7 @@ public class MonitorServlet extends HttpServlet {
 		}
 		
 		datastore.addSubscription("waldenlaker@hotmail.com", "http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?c=us&cs=22&l=en&s=dfh&brandid=2202&fid=5991");
+		datastore.addSubscription("r3000.mitbbs@gmail.com", "http://outlet.us.dell.com/ARBOnlineSales/Online/InventorySearch.aspx?c=us&cs=22&l=en&s=dfh&brandid=2202&fid=5991");
 		try{
 			Thread.sleep(1000);
 		} catch(InterruptedException ex){
