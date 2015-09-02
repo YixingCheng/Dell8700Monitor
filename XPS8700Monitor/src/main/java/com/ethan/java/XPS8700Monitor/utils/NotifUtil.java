@@ -21,7 +21,7 @@ public class NotifUtil {
 	 * @param senderName
 	 * @param senderEmail
 	 */
-	public NotifUtil(String senderName, String senderEmail) {
+	public NotifUtil(String senderEmail, String senderName) {
 		this.senderName = senderName;
 		this.senderEmail = senderEmail;
 	}
