@@ -37,7 +37,7 @@ public class NotifUtil {
         Session session = Session.getDefaultInstance(props, null);
         session.setDebug(true);
         
-        String msgBody = "The webpage " + uri + " has changed";
+        String msgBody = "New XPS8700s have been added!";
 
         try {
             Message msg = new MimeMessage(session);

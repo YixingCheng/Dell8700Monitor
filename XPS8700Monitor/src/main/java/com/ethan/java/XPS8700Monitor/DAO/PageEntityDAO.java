@@ -265,7 +265,8 @@ public class PageEntityDAO {
 			throw new IllegalArgumentException("The user is not registered");
 		}
 		if (isUserSubscribed(email, uri)) {
-			throw new IllegalArgumentException("The user is already subscribed");
+			//throw new IllegalArgumentException("The user is already subscribed");
+			//return;
 		}
 		Entity webObjectSubscription = new Entity(SUBSCRIPTION);
 		webObjectSubscription.setProperty("uri", uri);
